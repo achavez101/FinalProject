@@ -1,0 +1,103 @@
+body{
+    background-color: #0099ff;
+}
+header{
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Fira Sans', sans-serif;
+    word-spacing: 10px;
+    color: crimson;
+}
+nav{
+    background-color: crimson;
+    text-align: right;
+    height: 200px;
+    font-size: 50px;
+    padding: 50px 50px 50px 50px;
+    border: 5px solid lightcoral;
+    margin-bottom: 15px;
+}
+nav li{
+    display: block;
+    padding: 5px;
+}
+nav a:link{
+    color: cyan;
+    text-decoration: none;
+}
+a:visited{
+    color: cyan;
+}
+.highlight{
+    text-align: center;
+    color: crimson;
+    background-color: coral;
+    font-size: 45px;
+    margin-bottom: 25px;
+    padding-top: 15px;
+}
+form{
+    text-align: center;
+    font-size: 45px;
+    background-color: coral;
+    border: 5px solid coral;
+    margin-top: 15px;
+    color: cyan;
+    /*padding-right: 150px;*/
+}
+#fname{
+    padding-left: 15px;
+    font-size: 45px;
+    color: crimson;
+}
+#lname{
+    padding-left: 15px;
+    font-size: 45px;
+    color: crimson;
+}
+#email{
+    padding-left: 15px;
+    font-size: 45px;
+    color: crimson;
+}
+input[type=text], select, textarea {
+    width: 60%;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+button{
+    background-color: crimson;
+    color: cyan;
+    font-size: 45px;
+    padding: 45px;
+    border: none;
+    border-radius: 4px;
+    /*does the little hand when being hovered over*/
+    cursor: pointer;
+    /*keeps the button from being at the very bottom*/
+    margin-bottom: 100px;
+    margin-left: 35px;
+}
+::placeholder{
+    font-size: 40px;
+    color: crimson;
+}
+.alert{
+    color: crimson;
+}
+footer{
+    clear: both;
+    position: sticky;
+    bottom: 0;
+    height: 75px;
+    text-align: right;
+    padding-right: 15px;
+    padding-top: 5px;
+    color:cyan;
+    background-color:crimson;
+}
+footer a:link{
+    color:cyan;
+    text-decoration:none;
+}

@@ -1,0 +1,78 @@
+body{
+    background-color: #0099ff;
+}
+header{
+    font-family: 'Fira Sans', sans-serif;
+    text-align: center;
+    font-size: 100px;
+    word-spacing: 10px;
+    color: crimson;
+}
+nav{
+    background-color: crimson;
+    text-align: right;
+    height: 200px;
+    font-size: 50px;
+    padding: 50px 50px 50px 50px;
+    display: block;
+    border: 5px solid #002e4d;;
+    margin-bottom: 15px;
+}
+nav li{
+    display: block;
+    padding: 5px;
+}
+nav a:link{
+    color:cyan;
+    text-decoration: none;
+}
+a:visited{
+    color:cyan;
+}
+section{
+    margin-top: 15px;
+    text-align: center;
+    color: #002e4d;
+    font-weight: bold;
+    background-color: #F05C79;
+    border: 5px solid #002e4d;;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    line-height: 35px;
+}
+aside{
+    background-color: #F05C79;
+    border: 5px solid #002e4d;
+    color: #002e4d;
+    font-weight: bold;
+    margin-top: 15px;
+    width: 48%;
+    float: right;
+    margin-bottom: 15px;
+    padding: 5px 5px 5px 5px;
+    line-height: 35px;
+}
+article{
+    width: 48%;
+    margin-top: 15px;
+    float: left;
+    margin-bottom: 15px;
+    border: 5px solid #002e4d;
+    padding:0px;
+}
+footer{
+    clear: both;
+    position: sticky;
+    bottom: 0;
+    height: 75px;
+    text-align: right;
+    padding-right: 15px;
+    padding-top: 5px;
+    color:cyan;
+    background-color:crimson;
+}
+footer a:link{
+    color:cyan;
+    text-decoration:none;
+}
