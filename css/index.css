@@ -61,6 +61,10 @@ section{
     font-weight: bold;
     margin-bottom: 15px;
 }
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
 footer{
     clear: both;
     position: sticky;

@@ -86,6 +86,10 @@ button{
 .alert{
     color: crimson;
 }
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
 footer{
     clear: both;
     position: sticky;
@@ -96,7 +100,7 @@ footer{
     padding-top: 5px;
     color:cyan;
     background-color:crimson;
-    background-image: linear-gradient(to left, crimson,#F05C79, #0099ff, #F05C79, crimson);
+    background-image: linear-gradient(to left, crimson,#F05C79, #0099ff, #F05C79, crimson); 
 }
 footer a:link{
     color:cyan;
