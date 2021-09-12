@@ -57,6 +57,7 @@ aside{
 .fa-instagram {
     /*background: #125688;*/
     color: white;
+    float: left;
 }
 footer{
     clear: both;
